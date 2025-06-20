@@ -36,13 +36,14 @@
           class="d-lg-flex col-lg-5 flex-column justify-content-center align-items-center gap-4"
         >
           <img
+            class="logo mb-3"
             src="/frontend/assets/images/logo.png"
             alt="logo"
             width="200px"
             height="200px"
           />
           <div>
-            <h1 class="f-roboto">Hello there!</h1>
+            <h3 class="f-roboto">Hello there!</h3>
             <p class="info f-roboto d-lg-none">Sign-up to continue</p>
           </div>
         </div>
@@ -64,19 +65,23 @@
             /></span>
           </button>
 
-          <div class="hr-text mb-2"><span>OR</span></div>
+          <div class="hr-text d-none d-lg-block mb-2"><span>OR</span></div>
 
           <input class="form-control" type="text" placeholder="Full Name" />
           <input class="form-control" type="email" placeholder="Email" />
           <input class="form-control" type="tel" placeholder="Phone No" />
           <input class="form-control" type="password" placeholder="Password" />
+          <!-- <span><i class="fa-solid fa-eye-slash"></i></span> -->
           <input
             class="form-control"
             type="password"
             placeholder="Confirm Password"
           />
+          <!-- <span><i class="fa-solid fa-eye-slash"></i></span> -->
 
           <button class="btn sign-up-btn">Sign-up</button>
+
+          <div class="hr-text d-lg-none d-sm-block mb-2"><span>OR</span></div>
 
           <button
             class="google-btn f-roboto rounded-pill px-3 mb-1 shadow d-lg-none"

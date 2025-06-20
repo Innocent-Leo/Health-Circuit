@@ -49,3 +49,11 @@
     background-color: #f3f3f6;
   }
 }
+
+.logo {
+  border-radius: 1rem;
+}
+
+.fa-eye-slash {
+  color: #bcbcbc;
+}
